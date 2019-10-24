@@ -1,0 +1,6 @@
+# shadowvpn
+
+* install docker and docker-compose
+* modify password/user_token in docker-compose.yml
+* docker-compose up -d
+

@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  shadowvpn:
+    image: fsword/myimages:shadowvpn
+    environment:
+      password: "helloworld"
+      user_token: 'helloworld'
+    ports:
+      - "1123:1123/udp"
+    privileged: true
+    command: "vpn"
